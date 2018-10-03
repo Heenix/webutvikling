@@ -1,0 +1,147 @@
+body {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    margin-top: 40px;
+    background-image: url("../bilder/bakgrunn6.gif");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: white;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(59, 109, 161);
+}
+
+header {
+    background-color: #1b202bc5;
+    text-align: center;
+    height: 170px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+nav a {
+    border: 2px solid white;
+    text-align: center;
+    background-color: rgb(39, 44, 61);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.active {
+    background-color: rgb(0, 72, 100);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+    height: 110%;
+}
+
+aside {
+    background-color: #1b202bc5;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.responsivDesign {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    padding-top: 20%;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.responsivDesign a {
+    border: 2px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(39, 44, 61);
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsivDesign a:hover {
+    background-color: rgb(59, 109, 161);
+}
+
+.gitButton a {
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(39, 44, 61);
+    text-decoration: none;
+    color: white;
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gitButton a:hover {
+    background-color: rgb(59, 109, 161);
+}
+
+.hovedkolonne {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #1b202bc5;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hovedkolonne article {
+    width: 100%;
+}
+
+.hovedkolonne p {
+    margin-bottom: 15%;
+}
+
+.hovedkolonne img {
+    width: 200px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+article a {
+    border: 2px solid white;
+    background-color: rgb(39, 44, 61);
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #1b202bc5;
+    height: 60px;
+    text-align: center;  
+    font-size: 12px;
+    padding: 25px;
+    line-height: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 140px;
+}
